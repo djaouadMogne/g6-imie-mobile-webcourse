@@ -10,9 +10,9 @@
 
 
 
-
-<ion-content [fullscreen]="true" class="hidden">
 //Show if isEmptyCart == true
+<ion-content [fullscreen]="true">
+
 
   <ion-row class="container">
     <ion-col>
@@ -29,14 +29,15 @@
 
 </ion-content>
 
-//Show if isEmptyCart == false
-<ion-content class="hidden">
 
+<ion-content class="hidden">
+//Show if isEmptyCart == false
 </ion-content>
 
-//Show if isEmptyCart == false
 
-<ion-footer [fullscreen]="true" class="">
+
+<ion-footer [fullscreen]="true" class="hidden">
+  //Show if isEmptyCart == false
   <ion-row class="toPay">
     <ion-col>
       <p>total:</p>
