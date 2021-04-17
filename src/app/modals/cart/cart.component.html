@@ -26,22 +26,24 @@
       <p (click)="close()"><u class="closeLink">Start looking for your next course !</u></p>
     </ion-col>
   </ion-row>
+
+</ion-content>
+
 //Show if isEmptyCart == false
-</ion-content>
-
-
-<ion-content>
+<ion-content class="hidden">
 
 </ion-content>
 
-<ion-footer [fullscreen]="true" class="hidden">
+//Show if isEmptyCart == false
+
+<ion-footer [fullscreen]="true" class="">
   <ion-row class="toPay">
     <ion-col>
       <p>total:</p>
       <p ></p>
     </ion-col>
     <ion-col>
-        <ion-button  size="medium" color="dark">
+        <ion-button  size="medium" color="light">
          <p>buy</p>
         </ion-button>
       
