@@ -27,4 +27,6 @@ export class CartComponent implements OnInit {
         'dismissed': true
       })
   }
+
+  
 }
